@@ -54,3 +54,23 @@ The following gates are using to construct an Exclusive-OR (XOR) gate. Select th
 Consider an Exclusive-NOR gate with two inputs. It gives high output under the following condition. ---When both the inputs are the same---
 What is 4-bit-BCD code for the decimal 3740? ---0011011101000000---
 The ASCII code and its corresponding binary value of for the symbol 't' are ---116 and 01110100---
+
+----------------------------------------------------4RTH WEEK--------------------------------------------------
+
+Select the correct statement about memory:-
+             Memory unit is the collection of storage units or devices together
+             The memory unit stores the binary information in the form of bits
+             To refer any value memory address will be used---
+The average time required to reach the location in memory and obtain its content is called ---Access time---
+Which one refers to the digital computer? Select the best answer. ---
+             It uses 0 and 1 for data representation
+             It is used primarily in scientific applications
+             It represents the decimal numbers through a string of binary digits---
+The following type of memory will loose all its contents when power is switched off.---Volatile memory---
+What is the range of refreshing rate of DRAM? ---10-100 ms---
+Which type of memory supports reading data and doesn't support writing?---Read Only Memory---
+Which one is not known as type of computer memory?---FROM---
+---PROM--- contains blank memory at the time of manufacturing
+Primary memory or main memory is used to store---Data, Calculations and Programs---
+Select the fastest memory among the following group---Registers---
+             
