@@ -41,3 +41,16 @@ The equivalent Hexadecimal number for the Binary value 10111100001 is ---5E3
                                                                          All the options are incorrect------
 The equivalent Octal value for the Hexadecimal value 6FD is ---3375---
 What is the answer for the binary arithmetic (1010111)+(1000101)? ---10011100---
+
+-----------------------------------------------------3RD WEEK------------------------------------------------
+
+Select the incorrect statement about EBCDIC code --- 128 symbols can be represented by EBCDIC code---
+The universal gates are ---NAND,NOR----
+The Gate that is also known as inverter is ---NOT gate---
+You are designing an AND gate. To generate 1 the inputs of the gate should be---All inputs are HIGH---
+Truth table is used to express ---boolean function---
+A digital circuit can be made using only __ Gate in the place of every other gate ---NAND---
+The following gates are using to construct an Exclusive-OR (XOR) gate. Select the best option ---OR gates, AND gates and NOT gates---
+Consider an Exclusive-NOR gate with two inputs. It gives high output under the following condition. ---When both the inputs are the same---
+What is 4-bit-BCD code for the decimal 3740? ---0011011101000000---
+The ASCII code and its corresponding binary value of for the symbol 't' are ---116 and 01110100---
