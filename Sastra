@@ -73,4 +73,123 @@ Which one is not known as type of computer memory?---FROM---
 ---PROM--- contains blank memory at the time of manufacturing
 Primary memory or main memory is used to store---Data, Calculations and Programs---
 Select the fastest memory among the following group---Registers---
-             
+                                       c++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Question 1:
+
+OUTPUT:
+
+c
+16 11.5p
+A
+A
+B
+
+PROGRAM
+
+#include<iostream>
+using namespace std;
+class ClassName
+{
+public:
+ClassName(ClassName &obj)
+{
+   count<<"A\n";  
+}
+void operator =(ClassName obj)
+{
+   count<<"B\n";  
+}
+ClassName()
+{
+cout<<"C\n";
+}
+ClassName(int x,float y,char p)
+{
+cout<<x<<" “<<y<<" “<<p<<endl;
+}
+};
+int main()
+{
+---------//statement1
+---------//statement2
+---------//statement3
+---------//statement4
+}
+ 
+a)
+ClassName obj1;
+ClassName obj3=obj1;
+ClassName obj2(16,11.5,'p');
+obj1=obj3;
+
+b) Accepted answer:
+ClassName obj1;
+ClassName obj2(16,11.5,'p');
+ClassName obj3=obj2;
+obj1=obj3;
+
+c)
+ClassName obj1,obj3;
+obj1=obj3;
+ClassName obj2(16,11.5,'p');
+ClassName obj=obj3;
+
+
+d)
+ClassName obj1,obj3;
+ClassName obj2(16,11.5,'p');
+obj3=obj1;
+ClassName obj=obj3;
+
+Question 2:
+
+Which one is correct?
+
+Accepted answer:
+class A
+{
+public:
+A()
+{ }
+};
+
+Question 3:
+
+Which one is correct?
+
+Accepted answer:
+class A
+{
+public:
+A()
+{}
+~A()
+{}
+};
+
+Question 4:
+
+Which statement in the following program is incorrect and how can it be corrected?
+
+class Test
+{
+     const int t; //Statement 1 
+     public:
+     Test(int x) 
+     {t=x://Statement 2} 
+     int getT() 
+     { return t;//Statement 3}
+};
+int main()
+{
+   Test 11(20);
+   cout<<t1.getT();
+   return 0;
+}
+
+a) Statement 1 is incorrect => const int t =0;
+b) Accepted answer 
+   Statement 2 is incorrect => Test(int x):t(x) {}
+c)Statement 3 is incorrect => return const t;
+d) All statements are correct                                     
+ 
