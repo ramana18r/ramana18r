@@ -193,3 +193,36 @@ b) Accepted answer
 c)Statement 3 is incorrect => return const t;
 d) All statements are correct                                     
  
+ Question 6:
+
+What are the two operator overloading functions that must be included in the following program? 
+
+class Number 
+{      int no;
+    public:
+         Number():no(0)
+         { }
+         Number(int x):no(x)
+         {            }
+         -------------------------//Statement 1
+         -------------------------//Statement 2
+         void print()
+         {cout<<no<<"\n";}
+};
+int main()
+     {
+         Number obj(5);
+         ++obj;
+         obj++;
+         obj.print();
+     }
+
+a) Accepted answer:
+   friend void operator++(Number&);
+   friend void operator++(Number&,int);
+b) void operator++(Number&);
+   void operator++(Number&,int);
+c) friend void operator++(Number&);
+   friend void operator++(int,Number&);
+d) friend void operator++();
+   friend void operator++(int);
